@@ -1,0 +1,10 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "element-ui": "^2.15.14"
+  },
+  "scripts": {
+    "build": "echo '纯静态项目无需构建，已就绪！'"
+  }
+}

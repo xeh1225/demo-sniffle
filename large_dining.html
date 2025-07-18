@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/img/fav.png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css">
+<link href="css/swiper.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/global.css" rel="stylesheet" type="text/css">
+<link href="css/color.css" rel="stylesheet" type="text/css">
+<link href="css/solution.css" rel="stylesheet" type="text/css">
+<link href="css/head.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-2.1.3.min.js"></script>
+<title>来客</title>
+<script type="text/javascript">
+	$(function(){
+		if($(window).width() <= 1280){
+			$(".chinese_meal div").find(".col-lg-offset-2").removeClass("col-lg-offset-2").addClass("col-lg-offset-1");
+		}
+		if($(window).width() <= 1285 && $(window).width() >= 762){
+			$(".dining_func div").css("max-width","46%").removeClass("col-lg-4")
+								.find("p.desc").css("min-height","188px");
+		}		
+		if($(window).width() <= 767){
+			/*$(".dining_config div").css("max-width","46%").removeClass("col-lg-4")
+								.find("p.desc").css("min-height","188px");*/
+								
+			$(".chinese_meal .col-xs-12").removeClass("col-sm-offset-0").addClass("col-sm-offset-1 col-lg-offset-1");
+		}		
+		
+	});
+	
+</script>
+</head>
+<body data-theme="theme-3" class="loaded">
+<header class="act"> <a href="index.html" id="logo"><img class="act" src="img/logo.png" alt=""></a>
+    <div class="mob-icon"> <span></span> </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+			<li class="dropdown"><a class="act">解决方案</a>
+                <ul class="sub_menu hide">
+                    <li><a href="snack_food.html">小吃简餐</a></li>
+                    <li><a href="retail_store.html">零售百货</a></li>
+                    <li><a href="large_dining.html">大型餐饮</a></li>
+                    <li><a href="chain_manage.html">连锁管理</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a>帮助中心</a>
+				 <ul class="sub_menu hide">
+                    <li><a href="download.html">相关下载</a></li>
+                    <li><a href="video_tech.html">视频教学</a></li>
+                    <li><a href="faq.php">使用说明</a></li>
+                </ul>
+			</li>
+            <li><a href="about_us.html">关于我们</a></li>
+            <li><a href="https://s.likeit.cn">商户管理后台登录</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="content-wrapper">
+    <div class="blocks-container large_dining">
+        <!--begin 大型餐饮 -->
+        <div class="new-block type-18 scroll-to-block title_margin_top">
+            <div class="container width_100">
+                <div class="row left-right-entry">
+                    <div class="typography-article">
+                        <h2 class="titel-top text-center">大型餐饮</h2>
+                        <div>
+                            <p class="col-xs-12 text-center color_64">中餐酒楼、海鲜档、大型西餐厅、日料店、火锅城</p>
+							<br>
+                        </div>
+                    </div>
+                    <img class="img-responsive" src="img/large_dining_l.jpg">
+					<div class="function dining_func"> 
+						<div class="make_order col-lg-4 col-sm-6">
+							<p class="name">优化点单</p>
+							<p class="desc">在区域点单iPOS上，可实时了解当前时段的运营情况。提供拼台，拆台，转台的功能。支持叫起，称重菜品处理。与拉卡拉POS+无缝对接，可以让服务员点单-优惠-收银一机完成，提高50%的运营效率。</p>
+						</div>
+						<div class="orders col-lg-4 col-sm-6">
+							<p class="name">轻松后厨</p>
+							<p class="desc">通过神经网络自我学习，实现全自动智能派工，兼顾上菜次序和并菜出品，极大减轻打荷，切配压力。可选配智能摄像头，自动识别菜品，打印传菜单。</p>
+						</div>
+						<div class="discount col-lg-4 col-sm-6">
+							<p class="name">优惠</p>
+							<p class="desc">来客支持多种优惠方式，包括会员价，单品优惠，每日特价，团购优惠，自助餐优惠，买几赠几，满额优惠，以及各类优惠券，全面支持微信卡券。</p>
+						</div>
+						
+						<div class="strategy col-lg-4 col-sm-6">
+							<p class="name">阶梯式自助套餐策略</p>
+							<p class="desc">支持日式自助多级价格策略，扩为每个菜品设置套餐内的免费份数和套餐外的单独价格。</p>
+						</div>
+						<div class="marketing col-lg-4 col-sm-6">
+							<p class="name">助力营销</p>
+							<p class="desc">来客自带强大会员系统，支持积分、储值和次卡，提供开放API，与多家微信服务商合作，可实现微信点单与在线支付。</p>
+						</div>
+						<div class="report col-lg-4 col-sm-6">
+							<p class="name">统计报表</p>
+							<p class="desc">根据店家需求可从web端查看不同维度报表统计，如单品销量、订单来源、支付方式分布、门店销量对比等等。<br>支持总店菜品推送子店功能。<br></p><p></p>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <!--end 大型餐饮 -->
+        <!--begin 推荐配置 -->
+        <div class="new-block type-18 scroll-to-block recom_config">
+            <div class="container width_100">
+                <div class="row left-right-entry">
+					<div class="row col-xs-12 chinese_meal large_dining">
+						<div class="dining_config">
+							<div class="typography-article text-center">
+								<h2 class="name">推荐配置</h2>
+								<br>
+							</div>
+						<div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-1 col-lg-offset-2">
+							<div class="meal_desc">
+								<div>单厨房解决方案</div>
+								<div><span>iPOS max</span><span class="pull-right">x1</span></div>
+								<div><span>扫码枪</span><span class="pull-right">x1</span></div>
+								<div><span>钱箱</span><span class="pull-right">x1</span></div>
+								<div><span>厨房打印机</span><span class="pull-right">视档口数量选配</span></div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-0">
+							<div class="meal_desc">
+								<div>经典解决方案</div>
+								<div><span>区域点单：iPOS mini</span><span class="pull-right">x1</span></div>
+								<div><span>收银：iPOS max</span><span class="pull-right">x1</span></div>
+								<div><span>扫码枪</span><span class="pull-right">x1</span></div>
+								<div><span>钱箱</span><span class="pull-right">x1</span></div>
+								<div><span>厨房打印机</span><span class="pull-right">视档口数量选配</span></div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-1 col-lg-offset-2">
+							<div class="meal_desc">
+								<div>效率解决方案</div>
+								<div class="padding_bot"><span>移动点单：拉卡拉POS+</span><span class="pull-right">视下单员工人数</span></div>
+								<div><span>智慧后厨：iPOS mini</span><span class="pull-right">x1</span></div>
+								<div><span>收银：iPOS max</span><span class="pull-right">x1</span></div>
+								<div><span>排队领位：iPOS mini</span><span class="pull-right">x1</span></div>
+								<div><span>智能摄像头</span><span class="pull-right">x1</span></div>
+								<div><span>扫码枪</span><span class="pull-right">x1</span></div>
+								<div><span>钱箱</span><span class="pull-right">x1</span></div>
+								<div><span>厨房打印机</span><span class="pull-right">视档口数量选配</span></div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-0">
+							<div class="meal_desc">
+								<div>智能全能解决方案</div>
+								<div class="padding_bot"><span>区域点单：iPOS mini+</span><span class="pull-right">视点单区域数量</span></div>
+								<div class="padding_bot"><span>移动点单：拉卡拉POS+</span><span class="pull-right">视下单员工人数</span></div>
+								<div><span>智慧后厨：iPOS mini</span><span class="pull-right">x1</span></div>
+								<div><span>收银：iPOS max</span><span class="pull-right">x1</span></div>
+								<div><span>排队领位：iPOS mini</span><span class="pull-right">x1</span></div>
+								<div><span>智能摄像头</span><span class="pull-right">x1</span></div>
+								<div><span>扫码枪</span><span class="pull-right">x1</span></div>
+								<div><span>钱箱</span><span class="pull-right">x1</span></div>
+								<div><span>厨房打印机</span><span class="pull-right">视档口数量选配</span></div>
+							</div>
+						</div>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <!--end 推荐配置 -->		
+		
+        <!--begin 产品功能 -->
+        <div class="new-block type-18 scroll-to-block">
+            <div class="container width_100">
+                <div class="row left-right-entry">
+                    <div class="typography-article margin_top152">
+                        <h2 class="color_64 text-center">产品功能</h2>
+                    </div>
+					<div class="row pro_function">
+						<div class="cashier col-lg-4 col-sm-6">
+							<p class="name">看板下单</p>
+							<ul class="desc"> 
+								<li>按区域房台进行下单操作</li>
+								<li>支持并台、转台、撤台、关台等操作</li>
+								<li>支持AA分单</li>
+								<li>支持添加临时菜</li>
+								<li>支持添加分割线</li>
+								<li>称重商品可修改数量</li>
+								<li>赠菜功能<br></li>
+							</ul>
+						</div>
+						<div class="orders col-lg-4 col-sm-6">
+							<p class="name">收银</p>
+							<ul class="desc"> 
+								<li>支持混合支付方式</li>
+								<li>支持支付宝、微信、美团、大众点评等在线支付方式</li>
+								<li>支持不干胶标签打印</li>
+								<li>可配置收银流程，支持快速下单和快速收银</li>
+								<li>支持多种优惠混合使用</li>
+								<li>支持抹零功能</li>
+							</ul>
+						</div>
+						<div class="orders col-lg-4 col-sm-6">
+							<p class="name">会员</p>
+							<ul class="desc"> 
+								<li>支持开通不同的会员类型</li>
+								<li>支持会员积分充值消费合并等功能</li>
+								<li>支持跨店消费</li>
+								<li>支持护院流水查看</li>
+								<li>支持积分消费，充值赠金</li>
+								<li>支持积分换购</li>
+							</ul>
+						</div>
+						
+						<div class="cashier col-lg-4 col-sm-6">
+							<p class="name">原料配方核销</p>
+							<ul class="desc"> 
+								<li>完整全面的原料库</li>
+								<li>原料入库效率极高</li>
+								<li>轻松搞定原料配方，制作流程更加规范专业</li><li>支持从原料半成品菜品到商品的完整核销流程</li>
+								<li>支持半成品制作</li>
+							</ul>
+						</div>
+						<div class="marketing col-lg-4 col-sm-6">
+							<p class="name">外卖</p>
+							<ul class="desc"> 
+								<li>对接各类外卖配送平台，一键甩单</li>
+								<li>支持手动/自动呼叫配送</li>
+								<li>对接自配送，实时跟踪配送动态</li>
+								<li>配送员快速分拣</li>
+								<li>配送员精细管理，可查看配送单数、实收金额、平均配送时间、距离等等，便于精准统计配送员绩效</li>
+							</ul>
+						</div>
+						<div class="orders col-lg-4 col-sm-6">
+							<p class="name">排队叫号、预订</p>
+							<ul class="desc"> 
+								<li>按房台叫号</li>
+								<li>支持从候选队列叫号 </li>
+								<li>支持过号操作</li>
+								<li>进场打印领座单</li>
+								<li>房台预订，记录顾客手机号、人数等信息</li>
+								<li>按时段锁台，锁台时段无法预订</li>
+							</ul>
+						</div>
+						
+						<div class="cashier col-lg-4 col-sm-6">
+							<p class="name">报表</p>
+							<ul class="desc"> 
+								<li>根据店家需求可从web端查不同维度报表统计</li>
+								<li>单品销量、套餐销量、时段销量等等</li>
+								<li>支持查看子店报表</li>
+								<li>支持总店对连锁子店的权限管理</li>
+								<li>支持商品推送子店功能</li>
+								<li>单品、分类销售统计</li>
+								<li>订单来源统计</li>
+								<li>支付方式统计</li>
+								<li>门店对比报表</li>
+								<li>门店销售排名</li>
+								<li>门店支付方式对比</li>
+								<li>门店订单来源对比</li>
+							</ul>
+						</div>
+						<div class="marketing  col-lg-4 col-sm-6">
+							<p class="name">优惠</p>
+							<ul class="desc"> 
+								<li>支持自助套餐优惠设置，例如：299日料单人自助</li>
+								<li>支持授权优惠</li>
+								<li>可指定享受优惠的会员范围</li>
+								<li>支持优惠券的发放和核销</li>
+								<li>支持多种优惠混合使用</li>
+								<li>支持按整单或菜品收取一定服务费</li>
+							</ul>
+						</div>
+						<div class="orders  col-lg-4 col-sm-6">
+							<p class="name">部门员工</p>
+							<ul class="desc"> 
+								<li>员工最大折扣权利设置</li>
+								<li>可授权模块至相应员工</li>
+								<li>支持绩效部门设置</li>
+								<li>可设置为收银台、仓库、厨房类型</li>
+								<li>支持员工批量新建</li>
+							</ul>
+						</div>
+						
+						
+						
+					</div>
+                </div>
+            </div>
+        </div>
+        <!--end 产品功能 -->
+    </div>
+</div>
+<!-- <script src="js/like/like_footer.js?v=1.0.41"></script> -->
+<footer class="clearfix"><div class="met_footer_copyright clearfix"><div class="met_content"><p style="float:none;text-align:center;height:auto;">Copyright© 2022 安徽创千科技发展有限公司 All Rights Reserved <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow" style="color: #777777;">沪ICP备12039475号</a></p><div style="width:300px;margin:0 auto; padding:20px 0;"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011002000767" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="img/picp_bg1.png" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">沪公网安备 31011002000767号</p></a></div></div></div></footer>
+<script src="js/global.js"></script>
+<script src="js/sub_menu.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/swiper.js"></script> 
+<script>
+        var wow = new WOW(
+            {
+                boxClass:     'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset:       100,          // distance to the element when triggering the animation (default is 0)
+                mobile:       true,       // trigger animations on mobile devices (default is true)
+                live:         true,       // act on asynchronously loaded content (default is true)
+                callback:     function(box) {
+                  // the callback is fired every time an animation is started
+                  // the argument that is passed in is the DOM node being animated
+                }
+            }
+        );
+        $(window).load(function(){
+            wow.init();    
+        });
+		
+		
+</script>
+
+
+</body></html>

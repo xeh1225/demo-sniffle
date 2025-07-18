@@ -1,0 +1,846 @@
+@charset "utf-8";
+/* CSS Document */
+body[data-theme="theme-3"] .snack_food .titel-top:after {
+	color: #4c73a1;
+    background: #4c73a1!important;
+}
+.swiper-wrapper {
+	cursor: ns-resize!important;
+}
+#content-wrapper {	
+	padding-bottom: 100px;
+}
+.new-block:last-child {
+	border-bottom: 0 !important;
+}
+h2.line_height {
+    line-height: 56px;
+}
+.snack_food .typography-article h2 {
+	color: #4c73a1;
+}
+body[data-theme="theme-3"] .large_dining .titel-top:after {
+	color: #336a78;
+    background: #336a78!important;
+}
+.large_dining .typography-article h2 {
+    color: #336a78;
+}
+body[data-theme="theme-3"] .chain_manage .titel-top:after {
+	color: #33b9b5;
+    background: #33b9b5!important;
+}
+.chain_manage .typography-article h2 {
+    color: #33b9b5;
+}
+.function {
+	max-width:1400px;
+	margin: 0 auto;
+	margin-top: 122px;
+}
+.function div, .dining_func div {	
+	float: left;
+	min-height: 156px;
+	margin-right: 30px;
+}
+.dining_func div {	
+	min-height: 226px;
+}
+.function .name, .function .desc {
+	padding-left: 75px;
+}
+.function .name {
+	margin-bottom: 25px;
+	font-size: 20px;
+	color: #646464;
+}
+.function .desc {
+	font-size: 16px;
+	color: #9b9b9b;
+	line-height: 27px;
+	min-height: 106px;
+}
+
+
+.function .cashier .desc {
+	background: url("../img/cashier.png") no-repeat;
+}
+.function .orders .desc {
+	background: url("../img/orders.png") no-repeat;
+}
+.function .marketing .desc {
+	background: url("../img/marketing.png") no-repeat;
+}
+.function .order_taker .desc {
+	background: url("../img/order_taker.png") no-repeat;
+}
+.function .busi .desc {
+	background: url("../img/busi.jpg") no-repeat;
+}
+.function .report .desc {
+	background: url("../img/report.jpg") no-repeat;
+}
+.function .payment2 .desc {
+	background: url("../img/payment.jpg") no-repeat;
+}
+
+.function .discount .desc {
+	background: url("../img/discount.jpg") no-repeat;
+}
+.function .make_order .desc {
+	background: url("../img/make_order.jpg") no-repeat;
+}
+.function .strategy .desc {
+	background: url("../img/strategy.jpg") no-repeat;
+}
+
+
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+}
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet-active {
+    width: 8px;
+    height: 20px;
+	-webkit-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+/*  BEGIN  小吃简餐   */
+.chinese_meal{
+	width: 100%;
+	height: 800px;
+	display: block;
+}
+.chinese_meal .center-tagline {
+	 padding-top: 8%;
+}
+.chinese_meal .swiper-slide {
+	background: #4c73a1;
+}
+.config{
+	height: 100%;
+    background: url("../img/config.png") 27% 26% no-repeat;
+    text-align: left;
+    background-size: 25%;	
+}
+.cafe_config {
+	height: 100%;
+	background:url("../img/cafe_config.png") 73% 20% no-repeat;
+	text-align: left;
+}
+.hotpot_config {
+	height: 100%;
+	background:url("../img/hotpot_confit.png") 25% 28% no-repeat;
+	text-align: left;
+}
+.chinese_meal .name {
+	padding-top: 74px;
+	color: #fff !important;
+}
+.large_dining  .name {
+	padding-top: 0;
+}
+.meal_desc, .retail_desc {
+	font-size: 20px;
+	color: #fff;
+}
+.meal_desc div {
+	max-width: 450px;
+	border-bottom: 1px dashed  #a6bec6;
+	line-height: 22px;
+	padding: 26px 0 22px 0;
+	opacity: 0.7;
+}
+.retail_desc div {
+    max-width: 450px;
+    border-bottom: 1px dashed #b2d1bf;
+    line-height: 22px;
+    padding: 26px 0 22px 0;
+    opacity: 0.7;
+}
+.meal_desc div:first-child {
+	opacity: 1;
+}
+/*   END  小吃简餐  */
+
+/*  BEGIN  日用百货  */
+.retail_store .swiper-slide {
+	background: #28b092;
+}
+.shop_config {
+	height: 100%;
+	text-align: left;
+	background:url("../img/shop_config.png") 20% 34% no-repeat;
+}
+.fruit_config {
+	height: 100%;
+	text-align: left;
+	background:url("../img/fruit_config.png") 80% 34% no-repeat;
+}
+.nut_config {
+	height: 100%;
+	text-align: left;
+	background:url("../img/nut_config.png") 20% 34% no-repeat;
+}
+.market_config {
+	background:url("../img/market_config.png") 80% 34% no-repeat;
+}
+/* END  日用百货  */
+
+/*  BEGIN  大型餐饮  */
+.recom_config {
+	margin-top: 132px;
+	background: #336a78;
+}
+.retail_store .swiper-slide {
+	background: #28b092;
+}
+.shop_config {
+	background:url("../img/shop_config.png") 33% 31% no-repeat;
+}
+.fruit_config {
+	background:url("../img/fruit_config.png") 77% 24% no-repeat;
+}
+.nut_config {
+	background:url("../img/nut_config.png") 25% 18% no-repeat;
+}
+.market_config {
+	height: 100%;
+	text-align: left;
+	background:url("../img/market_config.png") 71% 31% no-repeat;
+}
+.large_dining {
+	height: auto;
+    background: #336a78;
+}
+.dining_config{
+	height: 100%;
+	background: #336a78;
+	text-align: left;		
+}
+.dining_config .col-sm-5 {
+	margin-bottom: 120px;
+}
+.dining_function div {
+	margin-bottom: 0;
+}
+.dining_function div.col-lg-12 {
+	margin-bottom: 82px;
+}
+
+/* END  大型餐饮  */
+
+/*  BEGIN  连锁管理  */
+.chain_manage .swiper-slide {
+	background: #28b092;
+}
+.chain_manage .new-block {
+	margin-bottom: 90px;
+	padding-top: 63px;
+} 
+.manage {
+	height: 838px;
+	background: #33b9b5 url("/img/manage.jpg") no-repeat 64% center;
+	text-align: center ;
+}
+.manage .typography-article.info {
+     margin-top: 20%;
+     width: 60%;
+}
+.typography-article p, .typography-article h3 {
+	color: #fff;
+}
+.manage .typography-article {
+	margin-top: 60%;
+}
+.manage .typography-article p {
+    font-size: 16px;
+}
+.reports div {
+	margin-bottom: 60px;
+}
+/*.reports img {
+	max-width: 470px;
+}*/
+.cashier_sys {
+	height: 718px;
+	background: #33b9b5 url("/img/cashier_sys.png") no-repeat center bottom;
+}
+.cashier_sys .typography-article h2 {
+	color: #fff!important;
+	padding-top: 5%!important;
+	font-weight: bold;
+}
+.payment {
+	height: 736px;
+	background: url("/img/payment_bg.jpg") no-repeat right bottom;
+	padding-bottom: 0;
+}
+.payment .typography-article ul li {
+    font-size: 16px;
+    margin-left: 6px;
+}
+.payment .payments {
+	padding: 0 15px;
+}
+.payment .payments img {
+	margin-right: 30px;
+}
+body[data-theme="theme-3"] .payment ul li:after {
+	background: #5eb165;
+}
+
+
+
+/* END  连锁管理  */
+
+.pro_function {
+	max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 108px;
+    padding-left: 50px;
+}
+.pro_function div {	
+	float: left;
+}
+.pro_function .name {
+	margin-bottom: 25px;
+	font-size: 18px;
+	color: #f14472;
+	font-weight: bold;
+}
+.pro_function .desc {
+	font-size: 15px;
+	color: #787878;
+	line-height: 27px;
+}
+.retail_function div {
+	margin-bottom: 82px;
+}
+
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 10px;
+}*/
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 10px;
+}
+.swiper-pagination-bullet {
+    background: #fff;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 7px;
+}
+.new-block .swiper-container {
+   margin-left: 0; 
+}
+.cnt {
+	width: 100%;
+}
+.new-block {
+	padding: 0;
+}
+.pos_relative {
+	position: relative;
+}
+.swiper-slide.swiper-slide-visible.swiper-slide-active {
+	background-size: cover;
+	background-position: center center;
+}
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 14px 0;
+	border: 2px solid #fff;
+	background: #fff;
+}
+.swiper-container-vertical>.swiper-pagination-bullets {
+	left: 15%;
+}
+body[data-theme="theme-3"] .retail_store .titel-top {
+	color: #41c0ac;
+}
+body[data-theme="theme-3"] .retail_store .titel-top:after {
+    background: #41c0ac!important;
+}
+.banner_top {
+	margin-top: 100px;
+}
+@media (min-width: 1800px){
+	.col-lg-offset-2 {
+		margin-left: 16.66666667%;
+	}
+	.manage .typography-article.info {
+		width: 77%;
+	}
+}
+@media (max-width: 1579px) {
+	.manage {
+		background: #33b9b5  url("/img/manage_computer.jpg") no-repeat right bottom ;
+	}
+}
+@media (min-width:1371px){
+	.payment {
+   		height: 736px;
+		background: url("/img/payment_bg.jpg") no-repeat right bottom;
+	}
+}
+@media (max-width:1370px){
+	.payment {
+   		height: 736px;
+		background: url("/img/payment_bg.jpg") no-repeat 100% bottom;
+	}
+}
+@media (max-width: 1280px) {
+	.manage {
+		background: #33b9b5 url("/img/manage_computer.jpg") no-repeat 138% bottom;
+	}
+	.cafe_config {
+		background:url("../img/cafe_config.png") 90% 20% no-repeat;
+	}
+	.hotpot_config {
+		background:url("../img/hotpot_confit.png") 25% 28% no-repeat;
+		background-size: 34%;
+	}
+	.fruit_config {
+		background: url("../img/fruit_config.png") 91% 24% no-repeat;
+	}
+	.market_config {
+		background: url("../img/market_config.png") 87% 24% no-repeat;
+	}
+	.config {
+		background-size: 30%;
+	}
+		
+}
+@media (min-width:415px) and (max-width: 1199px){
+	.col-sm-offset-1 {
+		margin-left: 8.33333333%;
+	}
+}
+@media (max-width:1199px){
+	.pro_function div {
+		margin-bottom: 40px;
+		min-height: 274px;
+	}
+	.manage {
+		background: #33b9b5 url("/img/manage.jpg") no-repeat 17% 52%;
+		background-size: 130%;
+	}
+	.manage .typography-article.info {
+		margin-top: 28%;
+		width: 95%;
+	}
+	.swiper-container-vertical>.swiper-pagination-bullets {
+		left: 3%;
+	}
+	.hotpot_config {
+		background: url("../img/hotpot_confit.png") 13% 28% no-repeat;
+	}
+	.config {
+		background: url("../img/config.png") 19% 26% no-repeat;
+		background-size: 33%;
+	}
+	.hotpot_config {
+		background: url("../img/hotpot_confit.png") 8% 28% no-repeat;
+	}
+	nav a {
+	    font-size: 16px;
+	}
+
+
+
+}
+@media (max-width:993px) {
+	.function .desc {
+		min-height: 268px;
+	}
+	h2.line_height {
+		line-height: 41px;
+	}
+	.payment {
+   		height: 736px;
+		background: url("/img/payment_bg.jpg") no-repeat left bottom;
+	}
+	.fruit_config {
+		background: url("../img/fruit_config.png") 105% 24% no-repeat;
+	}
+	.market_config {
+		 background: url("../img/market_config.png") 108% 24% no-repeat; 
+	}
+	.shop_config {
+		background: url("../img/shop_config.png") 16% 31% no-repeat;
+	}
+	.swiper-container-vertical>.swiper-pagination-bullets {
+	  left: 3%;	
+	}
+	.config {
+		background: url("../img/config.png") 10% 26% no-repeat;
+		    background-size: 43%;
+	}
+	.hotpot_config {
+		background: url("../img/hotpot_confit.png") 12% 28% no-repeat;
+		background-size: 38%;
+	}
+	.cafe_config {
+		background: url("../img/cafe_config.png") 98% 20% no-repeat;
+	}
+	
+
+
+
+
+
+
+}
+
+@media (min-width:992px){
+	.function div {	
+		max-width: 31%;
+	}
+	.retail .pro_function div {
+		min-height: 241px;
+	}
+	.nut_config {
+		background: url("../img/nut_config.png") 5% 18% no-repeat;
+	}
+}
+
+@media (min-width:1200px){
+	.pro_function div {
+		min-height: 324px;
+	}
+	.shop_config {
+		background: url("../img/shop_config.png") 26% 31% no-repeat;
+	}
+	.nut_config {
+		background: url("../img/nut_config.png") 24% 18% no-repeat;
+	}
+	.manage {
+		background: #33b9b5 url("/img/manage.jpg") no-repeat 22% 50%;
+		background-size: 126%;
+	}
+	.manage .typography-article.info {
+		width: 90%;
+	}
+}
+@media (min-width: 1281px) {
+	.manage {
+		background: #33b9b5 url("/img/manage.jpg") no-repeat 10% 50%;
+		background-size: 110%;
+	}
+	.manage .typography-article.info {
+		width: 86%;
+	}
+}
+@media (min-width: 1830px){
+	.manage .typography-article.info {
+		width: 72%;
+	}
+}
+@media (min-width: 1600px) {
+	.manage {
+		background: #33b9b5 url("/img/manage.jpg") no-repeat 25% 50%;
+	}
+}
+@media (max-width:991px){
+	.function div {	
+		margin-bottom: 30px;
+	}
+	.function {
+		margin-top: 98px;
+	}
+	.function, .pro_function {
+		margin-top: 78px;
+	}
+	.cashier_sys .typography-article h2 {
+		padding-top: 20%!important;
+	}
+}
+@media (min-width: 697) and (max-width: 768px) {
+	.dining_function div {
+		margin-bottom: 0;
+	}
+}
+@media (max-width: 768px){
+	.pro_function div {
+		min-height: 274px;
+	}
+	.dining_function div {
+		min-height: 100px;
+	}
+	.function .desc {
+		min-height: 100px;
+	}
+	.function .desc {
+		min-height: 100px;
+	}
+	.manage {
+		background: #33b9b5 url("/img/manage.jpg") no-repeat 30% 50%;
+		background-size: 144%;
+	}
+	.manage .typography-article.info {
+		margin-top: 35%;
+		width: 45%;
+		margin-left: 22%;
+	}
+	.function .desc {
+		min-height: 198px;
+	}
+	.pro_function {
+		margin-top: 58px;
+	}
+	.nut_config {
+		background: url("../img/nut_config.png") -3% 18% no-repeat;
+	}
+	.market_config {
+		background: url("../img/market_config.png") 118% 24% no-repeat;
+	}
+	.cafe_config {
+		background: url("../img/cafe_config.png") 110% 20% no-repeat;
+	}
+	.hotpot_config {
+		background: url("../img/hotpot_confit.png") 4% 28% no-repeat;
+		background-size: 47%;
+	}
+	.config {
+		background-size: 40%;
+	}
+	.dining_func div {
+		 margin-right: 0;
+	}
+	
+	
+	
+	
+	
+}
+@media (max-width:767px) {
+	.function .desc {
+		min-height: 78px;
+	}
+	.function div {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 414px) {
+	.manage {
+		background: #33B9B6 url("/img/com_v.jpg") no-repeat 20% 110%;
+		background-size: 122%;
+		height: 1029px;
+	}
+	.manage .typography-article.info {
+		margin-top: 0%;
+		width: 100%;
+		margin-left: 0%;
+	}
+	.manage p {
+		padding-left: 30px !important;
+		padding-right: 30px !important;
+	}
+	.recom_config {
+		padding-bottom: 190px!important;
+	}
+	.swiper-container-vertical>.swiper-pagination-bullets {
+		left: 3%;
+	}
+	.pro_function {
+		padding-left: 0;
+	}
+	.recom_config {
+		padding-bottom: 100px !important;
+	}
+	.function .desc {
+		min-height: auto;
+	}
+	.function div {
+		margin-bottom: 50px;
+		min-height: auto;
+	}
+	.recom_config {
+  	   margin-top: 102px;
+	}
+	.manage .typography-article {
+		margin-top: 20%;
+	}
+	.payment {
+		height: 796px;
+		background: url("/img/payment_bg.jpg") no-repeat 40% 240%;
+	}
+	.typography-article h2 {
+	    font-size: 26px;
+	}
+	.chinese_meal .center-tagline {
+		 padding-top: 9%;
+	}
+	.shop_config {
+		background: url("../img/shop_config.png") center -9% no-repeat;
+		padding-top: 222px;
+	    height: auto;
+	    background-size: 73%;
+	}
+	/*.chinese_meal{
+		min-height: 930px;
+	}*/
+	.fruit_config {
+		padding-top: 223px;
+	    background: url("../img/fruit_config.png") center -14% no-repeat;
+	    background-size: 91%;
+	}
+	.market_config {
+		padding-top: 210px;
+		background: url("../img/market_config.png") center 2% no-repeat;
+	}
+	.function div .desc {
+		padding-top: 42px;
+		background-position-x: 5%!important;
+	}
+	.config {
+	    background: url("../img/config.png") 71% 4% no-repeat;
+	    text-align: left;
+	    background-size: 91%;
+	    padding-top: 213px;
+}
+	.nut_config {
+		background: url("../img/nut_config.png") center -53% no-repeat;
+   	 padding-top: 211px;
+	}
+	.cafe_config {
+		background: url("../img/cafe_config.png") 112% -24% no-repeat;
+	    padding-top: 210px;
+	    background-size: 109%;
+	}
+	.hotpot_config {
+		background: url("../img/hotpot_confit.png") 42% -7% no-repeat;
+	    background-size: 93%;
+	    padding-top: 200px;
+	}
+	.typography-article {
+	    margin-bottom: 0;
+	}
+	.meal_desc div {
+	    padding: 12px 0 12px 0;
+	}
+	.retail_desc div {
+	    padding: 12px 0 12px 0;
+	}
+	.chinese_meal{
+		height: 641px;
+	}
+	.large_dining .chinese_meal {
+	    height: auto;
+	}
+	.meal_desc, .retail_desc {
+	    font-size: 18px;
+	}
+	.chain_manage p.text-center {
+		text-align: left;
+	}
+	.chain_manage .new-block {
+	    margin-bottom: 70px;
+	    padding-top: 40px;
+	}
+
+}
+@media (max-width: 320px) {
+	.manage {
+		background: #33B9B6 url("/img/com_v.jpg") no-repeat 20% bottom;
+		background-size: 122%;
+		height: 879px;
+	}
+	.manage .typography-article {
+		margin-top: 30%;
+	}
+	.payment {
+		height: 796px;
+		background: url("/img/payment_bg.jpg") no-repeat 40% 240%;
+	}
+	.hotpot_config {
+		background: url("../img/hotpot_confit.png") 90% -16% no-repeat;
+	    background-size: 100%;
+	    padding-top: 182px;
+	}	
+	.shop_config {
+	    background: url("../img/shop_config.png") center -5% no-repeat;
+	    padding-top: 201px;
+	    height: auto;
+	    background-size: 69%;
+	}
+	.fruit_config {
+		padding-top: 239px;
+	}
+	.chinese_meal {
+	    height: 441px;
+	}
+	.config {
+	    background: url("../img/config.png") 71% top no-repeat;
+	    text-align: left;
+	    background-size: 89%;
+	    padding-top: 166px;
+	}
+	.meal_desc, .retail_desc {
+	    font-size: 16px;
+	}
+	.typography-article h2 {
+	    font-size: 23px;
+	    padding: 0 15px !important;
+	    line-height: 31px;
+	}
+	.cafe_config {
+		background: url("../img/cafe_config.png") 121% -38% no-repeat;
+	    padding-top: 179px;
+	    background-size: 103%;
+	}
+	.chinese_meal h2.name {
+		padding-left: 0!important;			
+	}
+	.chinese_meal .center-tagline {
+	    padding-top: 4%;
+	}
+	.retail_desc div {
+	    padding: 12px 0 12px 0;
+	}
+	.nut_config {
+	    background: url("../img/nut_config.png") center -44% no-repeat;
+	    padding-top: 161px;
+	    background-size: 100%;
+	}
+	.market_config {
+	    padding-top: 164px;
+	    background: url("../img/market_config.png") center -4% no-repeat;
+	    background-size: 91%;
+	}
+	.fruit_config {
+  		background: url("../img/fruit_config.png") center -19% no-repeat;
+  		padding-top: 166px;
+    	background-size: 86%;
+	}
+	.padding_bot {
+		padding-bottom: 25px!important;
+	}
+	.meal_desc div {
+	    padding: 9px 0 9px 0;
+	}
+	.retail_desc div {
+   		padding: 9px 0 9px 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+}
